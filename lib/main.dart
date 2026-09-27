@@ -53,4 +53,7 @@ void main() {
   //list di gunakan untuk menyimpan data yang memiliki tipe data sama
   List<String> hewan = ["kucing", "kura-kura", "hamster"];
   print(hewan);
+  //set sama seperti list untuk menyimpan data, tapi set tidak bisa menyimpan data yang duplikat
+  Set<String> tinggi = {'189', '179', '189'};
+  print(tinggi);
 }
