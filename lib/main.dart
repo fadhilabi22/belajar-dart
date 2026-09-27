@@ -27,5 +27,9 @@ void main() {
   String makananKucing = "catchoice";
   //makananKucing=null; //di tolak atau terjadi error
   print(makananKucing);
-  
+  //nullable
+  String? pesanPemilik; //ini bisa di isi dengan tipe data string ataupun null
+  pesanPemilik = "sehat-sehat kucing";
+  pesanPemilik = null;
+  print(pesanPemilik);
 }
