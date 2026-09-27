@@ -17,8 +17,15 @@ void main() {
   double makanan = 10.0;
   //bool merupakan tipe data yang menyatakan true/false saja
   bool gemuk = true;
+  jumlah = 5;
+  //jumlah ='dua puluh'; //error karena tipe data gabisa di ubah
   print(warna);
   print(jumlah);
   print(makanan);
   print(gemuk);
+  //non nullable
+  String makananKucing = "catchoice";
+  //makananKucing=null; //di tolak atau terjadi error
+  print(makananKucing);
+  
 }
