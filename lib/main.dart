@@ -45,4 +45,10 @@ void main() {
   const String jenis = "Kucing domestik";
   print(warnaKucing);
   print(jenis);
+
+  //string interpolation di gunakan untuk menggabungkan variable dengan teks
+  String nama = "ogel";
+  int berat = 14;
+  print("nama kucing Mrs.J $nama berat nya $berat kg");
+  
 }
