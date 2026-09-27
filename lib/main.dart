@@ -50,5 +50,7 @@ void main() {
   String nama = "ogel";
   int berat = 14;
   print("nama kucing Mrs.J $nama berat nya $berat kg");
-  
+  //list di gunakan untuk menyimpan data yang memiliki tipe data sama
+  List<String> hewan = ["kucing", "kura-kura", "hamster"];
+  print(hewan);
 }
