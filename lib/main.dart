@@ -35,4 +35,14 @@ void main() {
   //null-aware operator
   String tidakAdaPrint = pesanPemilik ?? "gada catatan buat kucing!!";
   print(tidakAdaPrint);
+  //final data yang sudah fix dan tidak bisa di ubah
+  final String pemilikKucing = "Mrs.J";
+  final DateTime waktuPemilik = DateTime.now();
+  print(pemilikKucing);
+  print(waktuPemilik);
+  //const data nya seperti final cuman nilainya mesti sudah di ketahui terlebih dahulu
+  const warnaKucing = 3;
+  const String jenis = "Kucing domestik";
+  print(warnaKucing);
+  print(jenis);
 }
